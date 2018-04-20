@@ -55,10 +55,10 @@ section {
 /* ----- HEADINGS ----- */
 h1,
 h2,
-h3 {   
+h3 {
     font-weight: 300;
     text-transform: uppercase;
-      
+
 }
 
 h1 {
@@ -67,7 +67,7 @@ h1 {
     color: #fff;
     font-size: 240%;
     word-spacing: 4px;
-    letter-spacing: 1px;  
+    letter-spacing: 1px;
 }
 
 h2 {
@@ -75,7 +75,7 @@ h2 {
     word-spacing: 2px;
     text-align: center;
     margin-bottom: 30px;
-    letter-spacing: 1px;  
+    letter-spacing: 1px;
 }
 
 h2:after {
@@ -122,7 +122,7 @@ h3 {
     color:#e67e22;
     font-size: 120%;
     margin-right: 10px;
-    
+
     /* secrets to align text and icons */
     line-height: 120%;
     vertical-align: middle;
@@ -159,16 +159,16 @@ input[type=submit] {
     padding: 10px 30px;
     font-weight: 300;
     text-decoration: none;
-    border-radius: 200px;        
-    -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;        
-    -o-transition: background-color 0.2s, border 0.2s, color 0.2s;        
+    border-radius: 200px;
+    -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
+    -o-transition: background-color 0.2s, border 0.2s, color 0.2s;
     transition: background-color 0.2s, border 0.2s, color 0.2s;
 }
 
 .btn-full:link,
 .btn-full:visited,
 input[type=submit] {
-    background-color: #e67e22;   
+    background-color: #e67e22;
     border: 1px solid #e67e22;
     color: #fff;
     margin-right: 15px;
@@ -231,7 +231,7 @@ header {
     margin-top: 20px;
 }
 
-.logo-black { 
+.logo-black {
     display: none;
     height: 50px;
     width: auto;
@@ -320,7 +320,7 @@ header {
 /* ----------------------------------------------*/
 
 .section-meals {
-    padding: 0;    
+    padding: 0;
 }
 
 .meals-showcase {
@@ -359,9 +359,9 @@ header {
     -webkit-transform: scale(1.03);
     -ms-transform: scale(1.03);
     transform: scale(1.03);
-    opacity: 1;    
+    opacity: 1;
 }
-    
+
 /* ----------------------------------------------*/
 /* HOW IT WORKS */
 /* ----------------------------------------------*/
@@ -430,7 +430,7 @@ header {
     width: 100%;
     height: auto;
     margin-bottom:15px;
-} 
+}
 
 .cities h3 {
     text-align: center
@@ -450,7 +450,7 @@ header {
     background-image: -webkit-linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(img/back-customers-min.jpg);
     background-image: -o-linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(img/back-customers-min.jpg);
     background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(img/back-customers-min.jpg);
-    background-size: cover;    
+    background-size: cover;
     color: #fff;
     background-attachment: fixed;
 }
@@ -465,7 +465,7 @@ blockquote {
 
 blockquote:before {
     content: "\201C";
-    font-size:500%; 
+    font-size:500%;
     display: block;
     position: absolute;
     top: -5px;
@@ -539,7 +539,7 @@ cite img {
     list-style: none;
 }
 
-.plan ul li {
+.plan-box ul li {
     padding: 5px 0;
 }
 
@@ -548,7 +548,7 @@ cite img {
 /* ----------------------------------------------*/
 
 .contact-form {
-    width: 90%;
+    width: 60%;
     margin: 0 auto;
 }
 
@@ -589,19 +589,18 @@ input[type=checkbox] {
 
 .map-box {
     width: 100%;
-    height: 560px;    
+    height: 560px;
     position: relative;
 }
 
-.map {
+/* .map {
     width: 100%;
     height: 560px;
     position: relative;
     z-index: 0;
-    
-}
+}  */
 
-.form-box {
+/* .form-box {
     position: absolute;
     top: 0;
     right: 0;
@@ -610,7 +609,7 @@ input[type=checkbox] {
     background-color: rgba(255, 255, 255, 0.8);
     z-index: 10;
     padding-top: 40px;
-}
+} */
 
 /* ----------------------------------------------*/
 /* FOOTER */
@@ -629,13 +628,13 @@ footer {
 
 .social-links {
     list-style: none;
-    float: right;    
+    float: right;
 }
 
 .footer-nav li,
 .social-links li {
     display: inline-block;
-    margin-right: 20px; 
+    margin-right: 20px;
 }
 
 .footer-nav li:last-child,
@@ -662,7 +661,7 @@ footer {
 
 .social-links li a:link,
 .social-links li a:visited {
-    font-size: 160%; 
+    font-size: 160%;
 }
 
 .ion-social-facebook,
@@ -703,9 +702,9 @@ footer p {
 
 .js--wp-1,
 .js--wp-2,
-.js--wp-3 { 
-    opacity: 0; 
-    -webkit-animation-duration: 1s; 
+.js--wp-3 {
+    opacity: 0;
+    -webkit-animation-duration: 1s;
     animation-duration: 1s;
 }
 
@@ -716,9 +715,6 @@ footer p {
 
 .js--wp-1.animated,
 .js--wp-2.animated,
-.js--wp-3.animated { 
-    opacity: 1; 
+.js--wp-3.animated {
+    opacity: 1;
 }
-
-
-
